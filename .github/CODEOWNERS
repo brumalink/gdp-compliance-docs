@@ -1,0 +1,8 @@
+# Every controlled document needs QA & Compliance approval (SOP-QA-01)
+*                    @brumalink/qa-compliance
+
+# Transport and warehouse SOPs are co-owned by operations
+/sops/SOP-TR-*       @brumalink/qa-compliance @brumalink/devops
+/sops/SOP-WH-*       @brumalink/qa-compliance @brumalink/devops
+
+/.github/            @brumalink/devops
