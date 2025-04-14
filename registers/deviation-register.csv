@@ -1,0 +1,3 @@
+id,opened,class,category,shipment,summary,root_cause,capa,status,closed
+DEV-2025-001,2025-04-02,minor,documentation,,Pre-cooling check not recorded in driver app (2 trips),Driver not trained on new app screen,Re-training of 4 drivers,open,
+DEV-2025-002,2025-04-11,major,temperature,BL-2025-000418,Excursion 9.8 C for 40 min on WAW-KRK route,Refrigeration unit door seal damaged,Seal replaced; weekly seal inspection added to SOP-TR-03 checklist,open,
