@@ -2,7 +2,7 @@
 
 | Document ID | Version | Effective date | Owner | Approved by |
 |---|---|---|---|---|
-| SOP-TR-07 | 1.0 | 2025-04-09 | Piotr Kaczmarek | Joanna Kowalczyk |
+| SOP-TR-07 | 2.0 | 2025-05-21 | Piotr Kaczmarek | Joanna Kowalczyk |
 
 ## 1. Purpose
 
@@ -10,7 +10,13 @@ Define what happens when a shipment leaves its allowed temperature range during 
 
 ## 2. Definition
 
-An **excursion** is any period in which the measured temperature is outside **2–8 °C**.
+An **excursion** is any period in which the measured temperature is outside the shipment's **product profile**:
+
+| Profile | Range |
+|---|---|
+| `2-8C` | 2 to 8 °C |
+| `15-25C` | 15 to 25 °C |
+| `frozen` | -25 to -15 °C |
 
 ## 3. Procedure
 
@@ -25,3 +31,4 @@ An **excursion** is any period in which the measured temperature is outside **2�
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2025-04-09 | First issue |
+| 2.0 | 2025-05-21 | Product profiles 15-25C and frozen added |
