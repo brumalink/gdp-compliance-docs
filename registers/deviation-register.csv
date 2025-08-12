@@ -2,5 +2,9 @@ id,opened,class,category,shipment,summary,root_cause,capa,status,closed
 DEV-2025-001,2025-04-02,minor,documentation,,Pre-cooling check not recorded in driver app (2 trips),Driver not trained on new app screen,Re-training of 4 drivers,closed,2025-04-18
 DEV-2025-002,2025-04-11,major,temperature,BL-2025-000418,Excursion 9.8 C for 40 min on WAW-KRK route,Refrigeration unit door seal damaged,Seal replaced; weekly seal inspection added to SOP-TR-03 checklist,closed,2025-05-09
 DEV-2025-003,2025-05-06,minor,delivery,BL-2025-000702,Delivered to wrong pharmacy entrance (same address),Unclear delivery instructions,Delivery notes field made mandatory,closed,2025-05-20
-DEV-2025-004,2025-05-14,critical,temperature,BL-2025-000811,Frozen plasma at -9 C for 2 h after unit failure,Compressor failure,Product rejected and destroyed; backup unit procedure; supplier CAPA,open,
-DEV-2025-005,2025-05-26,minor,documentation,,Custody signature missing on 3 paper delivery notes,Handover done in rain; notes not signed,Electronic signature in driver app enforced,open,
+DEV-2025-004,2025-05-14,critical,temperature,BL-2025-000811,Frozen plasma at -9 C for 2 h after unit failure,Compressor failure,Product rejected and destroyed; backup unit procedure; supplier CAPA,closed,2025-06-12
+DEV-2025-005,2025-05-26,minor,documentation,,Custody signature missing on 3 paper delivery notes,Handover done in rain; notes not signed,Electronic signature in driver app enforced,closed,2025-06-20
+DEV-2025-006,2025-06-30,major,temperature,BL-2025-001377,Excursion 27.5 C (15-25C profile) during heatwave,Pre-cooling started 15 min before loading,SOP-TR-03 60-min rule for >25 C outside,closed,2025-08-04
+DEV-2025-007,2025-07-17,minor,system,,Duplicate excursion alerts after tracker reconnect,Platform re-evaluated re-sent readings,Fixed in platform (duplicate readings skipped),closed,2025-07-30
+DEV-2025-008,2025-07-29,major,temperature,BL-2025-001566,Short spike to 10.1 C during loading at POZ hub,Doors open during loading of 3 pallets,Assessed; led to stability review SR-2025-09,open,
+DEV-2025-009,2025-08-08,minor,training,,New hub operator worked before GDP induction training,Onboarding checklist not followed,Training matrix check added to onboarding,open,
