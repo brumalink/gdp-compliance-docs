@@ -2,6 +2,17 @@
 
 All notable changes to this project are documented in this file.
 
+## [qms-2025.2] - 2025-11-25
+
+- VAL-001 validation record: shipment platform v1.0
+- Add CAPA plan template
+- Docs checks: fail on committed secrets and large files
+- Deviation register: DEV-2025-006 to DEV-2025-009
+- SOP-WH-05 cold room temperature mapping v1.0
+- SOP-TR-07 v3.0: tolerate short door-open spikes (SR-2025-09)
+- Customer audit report November 2025
+- SOP-QA-02 v2.0: CAPA effectiveness check (audit finding F-02)
+
 ## [qms-2025.1] - 2025-05-28
 
 - Initial QMS document structure and SOP-QA-01 document control

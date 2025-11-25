@@ -2,7 +2,7 @@
 
 | Document ID | Version | Effective date | Owner | Approved by |
 |---|---|---|---|---|
-| SOP-QA-02 | 1.0 | 2025-03-12 | Joanna Kowalczyk | Joanna Kowalczyk |
+| SOP-QA-02 | 2.0 | 2025-12-01 | Joanna Kowalczyk | Joanna Kowalczyk |
 
 ## 1. Purpose
 
@@ -14,15 +14,19 @@ Ensure that every departure from GDP requirements is recorded, assessed and, whe
    within 24 hours, using the [deviation report template](../templates/deviation-report.md).
 2. QA classifies the deviation: **minor**, **major** or **critical**.
 3. QA assesses the impact on product quality. Critical deviations are escalated to the Responsible Person immediately.
-4. If the root cause is not obvious, a root cause analysis is performed and a CAPA plan is agreed.
-5. The deviation is closed when all actions are complete.
+4. If the root cause is not obvious, a root cause analysis is performed and a CAPA plan is agreed
+   ([CAPA template](../templates/capa-plan.md)).
+5. **CAPA effectiveness check:** 90 days after the last action, QA verifies that the problem has not recurred
+   and records the result in the register (new in version 2.0, audit finding F-02).
+6. The deviation is closed when all actions are complete and, for major and critical deviations, the
+   effectiveness check is passed.
 
 ## 3. Timelines
 
 | Class | Assessment | Closure target |
 |---|---|---|
-| Critical | 4 hours | 15 days |
-| Major | 2 business days | 30 days |
+| Critical | 4 hours | 15 days + effectiveness check |
+| Major | 2 business days | 30 days + effectiveness check |
 | Minor | 5 business days | 60 days |
 
 ## 4. Revision history
@@ -30,3 +34,4 @@ Ensure that every departure from GDP requirements is recorded, assessed and, whe
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2025-03-12 | First issue |
+| 2.0 | 2025-12-01 | CAPA effectiveness check after 90 days (customer audit November 2025, finding F-02) |
