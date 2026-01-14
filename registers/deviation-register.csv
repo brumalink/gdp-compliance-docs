@@ -6,5 +6,9 @@ DEV-2025-004,2025-05-14,critical,temperature,BL-2025-000811,Frozen plasma at -9 
 DEV-2025-005,2025-05-26,minor,documentation,,Custody signature missing on 3 paper delivery notes,Handover done in rain; notes not signed,Electronic signature in driver app enforced,closed,2025-06-20
 DEV-2025-006,2025-06-30,major,temperature,BL-2025-001377,Excursion 27.5 C (15-25C profile) during heatwave,Pre-cooling started 15 min before loading,SOP-TR-03 60-min rule for >25 C outside,closed,2025-08-04
 DEV-2025-007,2025-07-17,minor,system,,Duplicate excursion alerts after tracker reconnect,Platform re-evaluated re-sent readings,Fixed in platform (duplicate readings skipped),closed,2025-07-30
-DEV-2025-008,2025-07-29,major,temperature,BL-2025-001566,Short spike to 10.1 C during loading at POZ hub,Doors open during loading of 3 pallets,Assessed; led to stability review SR-2025-09,open,
-DEV-2025-009,2025-08-08,minor,training,,New hub operator worked before GDP induction training,Onboarding checklist not followed,Training matrix check added to onboarding,open,
+DEV-2025-008,2025-07-29,major,temperature,BL-2025-001566,Short spike to 10.1 C during loading at POZ hub,Doors open during loading of 3 pallets,Assessed; led to stability review SR-2025-09,closed,2025-10-21
+DEV-2025-009,2025-08-08,minor,training,,New hub operator worked before GDP induction training,Onboarding checklist not followed,Training matrix check added to onboarding,closed,2025-08-29
+DEV-2025-010,2025-10-02,minor,temperature,BL-2025-002210,Tracker offline 50 min in tunnel section (no data gap >1h),LTE-M coverage,Accepted - within 1h data-gap tolerance,closed,2025-10-09
+DEV-2025-011,2025-11-19,major,audit,,Customer audit finding F-02: CAPA effectiveness not verified,SOP-QA-02 had no effectiveness step,SOP-QA-02 v2.0,open,
+DEV-2025-012,2025-12-10,minor,delivery,BL-2025-002904,Delivery 2 h late due to snow; product within range,Weather,No action,closed,2025-12-11
+DEV-2026-001,2026-01-08,major,temperature,BL-2026-000077,Excursion 0.9 C (2-8C) overnight at WRO hub cold room,Thermostat set point drift,Thermostat recalibrated; SOP-WH-05 re-mapping of room WRO-2,open,
