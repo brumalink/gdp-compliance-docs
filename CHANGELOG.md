@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## [qms-2026.1] - 2026-05-27
+
+- Deviation register: DEV-2025-010 to DEV-2026-001
+- VAL-002 validation record: shipment platform v2.0 (multi-tenant)
+- Training matrix: SOP-TR-07 v3, SOP-QA-02 v2, new drivers
+- Internal audit plan 2026
+- Deviation register: DEV-2026-002 to DEV-2026-004; README overview
+
 ## [qms-2025.2] - 2025-11-25
 
 - VAL-001 validation record: shipment platform v1.0
