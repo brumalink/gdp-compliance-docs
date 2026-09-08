@@ -15,3 +15,4 @@ DEV-2026-001,2026-01-08,major,temperature,BL-2026-000077,Excursion 0.9 C (2-8C) 
 DEV-2026-002,2026-03-12,minor,system,,Tenant nordic-3pl user saw shipment counts of all tenants on dashboard,Dashboard aggregate query not tenant-scoped,Fixed; UAT test TEN-03 added,closed,2026-03-26
 DEV-2026-003,2026-04-22,minor,documentation,,Training matrix not updated after SOP-TR-07 v3,Missed in change checklist,Checklist item added to PR template,closed,2026-05-06
 DEV-2026-004,2026-05-19,major,temperature,BL-2026-001845,Excursion 8.9 C for 25 min at BER cross-dock,Staging area without cooling used,Staging area use prohibited for 2-8C,open,
+DEV-2026-005,2026-09-04,major,temperature,BL-2026-004512,Excursion 9.4 C for 35 min on VIE route - duplicate alert suspected,Under investigation,,open,
